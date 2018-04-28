@@ -8,12 +8,12 @@
   
 <servlet>
 
-    <display-name>JenkinsServlet</display-name>
-    <servlet-name>JenkinsServlet</servlet-name>
-    <servlet-class>com.jenkins.servlet.JenkinsServlet</servlet-class>
+    <display-name>TestServlet</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>servlets.TestServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>JenkinsServlet</servlet-name>
+    <servlet-name>TestServlet</servlet-name>
     <url-pattern>/login</url-pattern>
 </servlet-mapping>
   
